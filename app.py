@@ -470,7 +470,7 @@ def main():
 
     if predict_clicked:
         input_df = pd.DataFrame([ordered_input])
-        scaled = scaler.transform(input_df)
+        scaled = scaler.transform(input_df.values)
         input_df = input_df[scaler.feature_names_in_]
         scaled = scaler.transform(input_df)
         raw_pred = model.predict(scaled)[0]
