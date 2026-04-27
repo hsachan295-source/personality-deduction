@@ -111,7 +111,7 @@ streamlit run app.py
 Add your deployed Streamlit link here after deployment.
 
 Example:
-[https://your-app-name.streamlit.app/](https://your-app-name.streamlit.app/)
+[https://your-app-name.streamlit.app/](https://personality-deduction-meizhmfpxrk94kh4vvbrcv.streamlit.app/)
 
 ---
 
